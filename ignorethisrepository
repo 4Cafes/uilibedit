@@ -64,6 +64,10 @@ elseif theme == "Deep Sea" then
     theme2 = Color3.fromRGB(26,26,26)
     theme3 = Color3.fromRGB(40, 81, 214)
     print("Theme selected: "..theme)
+elseif theme == "1" then
+    theme1 = Color3.fromRGB(32,32,32)
+    theme2 = Color3.fromRGB(26,26,26)
+    theme3 = Color3.fromRGB(85, 9, 227)
 end
 
 local Screen = Instance.new("ScreenGui")
